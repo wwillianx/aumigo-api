@@ -30,6 +30,7 @@ jobs:
           switches: -avzr --delete
           path: ./*
           remote_path: /opt/aumigo-api/ # Pasta onde está o nosso projeto
+          remote_path: /opt/aumigo-api/ # Pasta onde está o nosso projeto
           remote_host: <18.231.72.25> # Aqui vai o IP da instância EC2
           remote_user: ubuntu
           remote_key: "${{ secrets.SSH_PRIVATE_KEY }}"
